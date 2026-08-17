@@ -94,9 +94,24 @@ I recommend **AWS** because the company can combine its global infrastructure wi
 
 ---
 
-## Conclusion
+# Checkpoint 6 – Multi-Cloud Decision Matrix
 
-The client scenarios demonstrate why cloud-platform selection should be based on requirements rather than popularity. Existing software investments, application architecture, scaling behavior, technical skills, and the type of workload can make one provider more suitable than another.
+The following matrix converts common business requirements into practical cloud-provider recommendations.
+
+| Business Requirement | Recommended Platform | Justification |
+|---|---|---|
+| **Startup Company** | Google Cloud | Managed and serverless technologies such as Cloud Run and Firestore can help a small team begin without managing extensive infrastructure while preserving room for growth. |
+| **Enterprise Organization** | AWS | AWS provides a very broad service portfolio, mature infrastructure services, and extensive options for complex enterprise architectures. |
+| **Microsoft Environment** | Microsoft Azure | Azure works closely with Windows Server, Microsoft 365, Microsoft Entra, SQL Server, and other Microsoft enterprise technologies. |
+| **AI / Machine Learning** | Google Cloud | Google Cloud provides Vertex AI and a strong collection of data, machine-learning, GPU, and analytics services. |
+| **Kubernetes Deployment** | Google Cloud | Google Kubernetes Engine provides managed Kubernetes on Google's cloud infrastructure and benefits from Google's history with large-scale container orchestration. |
+| **Global Web Application** | AWS | AWS combines global infrastructure with Auto Scaling, Elastic Load Balancing, CloudFront, Route 53, and other technologies for highly available global applications. |
+
+---
+
+## Decision-Making Principle
+
+The matrix should be treated as a starting point rather than an absolute rule. Real cloud architecture decisions should also consider cost, data location, regulatory requirements, existing employee skills, licensing, security requirements, application dependencies, performance requirements, and organizational strategy.
 
 ---
 
@@ -133,4 +148,22 @@ The client scenarios demonstrate why cloud-platform selection should be based on
     https://docs.aws.amazon.com/elasticloadbalancing/latest/userguide/what-is-load-balancing.html
 
 11. AWS Documentation. **What is Amazon CloudFront?**  
+    https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html
+
+12. Amazon Web Services. **AWS Global Infrastructure**.  
+    https://aws.amazon.com/about-aws/global-infrastructure/
+
+13. Microsoft Learn. **Azure Virtual Network Overview**.  
+    https://learn.microsoft.com/en-us/azure/virtual-network/virtual-networks-overview
+
+14. Google Cloud. **Vertex AI Documentation**.  
+    https://cloud.google.com/vertex-ai/docs
+
+15. Google Cloud Documentation. **GKE Overview**.  
+    https://docs.cloud.google.com/kubernetes-engine/docs/concepts/kubernetes-engine-overview
+
+16. AWS Documentation. **Amazon EC2 Auto Scaling**.  
+    https://docs.aws.amazon.com/autoscaling/ec2/userguide/what-is-amazon-ec2-auto-scaling.html
+
+17. AWS Documentation. **Amazon CloudFront**.  
     https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html
