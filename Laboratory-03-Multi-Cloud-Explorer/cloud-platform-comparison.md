@@ -44,6 +44,42 @@ The final platform should therefore be selected by matching technical capabiliti
 
 ---
 
+# Checkpoint 5 – Equivalent Cloud Services
+
+Although AWS, Azure, and Google Cloud use different product names, many services perform similar cloud-computing functions.
+
+| Service Category | AWS | Microsoft Azure | Google Cloud |
+|---|---|---|---|
+| **Virtual Machine** | Amazon EC2 | Azure Virtual Machines | Compute Engine |
+| **Object Storage** | Amazon S3 | Azure Blob Storage | Cloud Storage |
+| **Identity Management** | AWS IAM | Microsoft Entra ID | Google Cloud IAM |
+| **SQL Database** | Amazon RDS | Azure SQL Database | Cloud SQL |
+| **Kubernetes** | Amazon EKS | Azure Kubernetes Service (AKS) | Google Kubernetes Engine (GKE) |
+
+## Service Mapping Notes
+
+### Virtual Machines
+
+**Amazon EC2**, **Azure Virtual Machines**, and **Compute Engine** allow organizations to create configurable virtual servers in their respective cloud environments.
+
+### Object Storage
+
+**Amazon S3**, **Azure Blob Storage**, and **Cloud Storage** provide cloud object storage suitable for application files, backups, media, archives, and datasets.
+
+### Identity Management
+
+**AWS IAM**, **Microsoft Entra ID**, and **Google Cloud IAM** provide technologies for controlling access to cloud resources, although each provider implements identity, roles, policies, and permissions differently.
+
+### SQL Databases
+
+**Amazon RDS**, **Azure SQL Database**, and **Cloud SQL** provide managed relational database capabilities. Exact supported database engines and management features vary among providers.
+
+### Kubernetes
+
+**Amazon EKS**, **Azure Kubernetes Service**, and **Google Kubernetes Engine** provide managed Kubernetes capabilities that reduce the amount of Kubernetes control-plane infrastructure that customers must operate themselves.
+
+---
+
 ## References
 
 1. Amazon Web Services. **About AWS**.  
@@ -72,3 +108,21 @@ The final platform should therefore be selected by matching technical capabiliti
 
 9. Google Cloud. **Vertex AI Documentation**.  
    https://cloud.google.com/vertex-ai/docs
+
+10. AWS Documentation. **Amazon RDS Documentation**.  
+    https://docs.aws.amazon.com/rds/
+
+11. Microsoft Learn. **Azure SQL Documentation**.  
+    https://learn.microsoft.com/en-us/azure/azure-sql/
+
+12. Google Cloud Documentation. **Cloud SQL Overview**.  
+    https://docs.cloud.google.com/sql/docs/introduction
+
+13. AWS Documentation. **Amazon EKS Documentation**.  
+    https://docs.aws.amazon.com/eks/
+
+14. Microsoft Learn. **Azure Kubernetes Service Documentation**.  
+    https://learn.microsoft.com/en-us/azure/aks/
+
+15. Google Cloud Documentation. **Google Kubernetes Engine Documentation**.  
+    https://docs.cloud.google.com/kubernetes-engine/docs
